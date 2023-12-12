@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nova+Square&family=Oswald:wght@700&family=PT+Serif:wght@700&family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Noto+Sans&family=Nova+Square&family=Oswald:wght@700&family=PT+Serif:wght@700&family=Poppins:wght@500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    max-width: 1168px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 55.1px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 118%;
+}
+h2 {
+    color: #000;
+    font-family: 'Inter';
+    font-size: 18.396px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 142.773%;
+    letter-spacing: 0.736px;
+}
+
+header {
+    margin: auto;
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header ul {
+    display: flex;
+    gap: 60px;
+}
+
+header li {
+    list-style: none;
+    gap: 60px;
+}
+
+.but {
+    padding:  10px 31px;
+    background: linear-gradient(90deg, rgba(221, 211, 239, 0.55) 0%, #FDD9FF 36.58%, #B2E0FE 87.8%);
+}
+
+.con_2 {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.con_2 button {
+    padding: 10px 40px;
+    gap: 60px;
+}
+
+.black {
+    background-color: black;
+    color: #fff;
+
+    /* padding-bottom: 180px; */
+}
+
+.black-con {
+    display: flex;
+    gap: 70px;
+    padding: 40px 0px;
+    align-items: center;
+    
+}
+
+
+.hero, .hero1  {
+    width: 50%;
+}
+
+.con_3 {
+    display: flex;
+    justify-content: space-around;
+
+}
+.con_5 {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(116, 160, 184), rgb(230, 112, 132),  rgb(9, 160, 210));
+}
+
+
+.con_5 input {
+    padding: 20px 30px;
+    border-radius: 10px;
+    outline: none;
+}
+
+
+
+
+
+
+@media (max-width:964px) {
+    
+    header {
+        
+        padding-left: 60px;
+    }
+    .hero {
+        width: 100%;
+        padding-left: 60px;
+    }
+    .hero1 {
+        display: none;
+        padding-left: 60px;
+    }
+
+    .button {
+        display: none;
+    }
+}
+
+@media (max-width:428px){
+    .con_3 {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:428px){
+    .black-con {
+        flex-direction: column;
+    }
+}
